@@ -51,13 +51,13 @@ class _Login_PageState extends State<Login_Page> {
                   margin:
                   const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                   child: Material(
-                    elevation: 10,
-                    borderRadius: BorderRadius.circular(50),
+                    elevation:10,
+                    borderRadius: BorderRadius.circular(25),
                     child: Container(
                       padding: const EdgeInsets.symmetric(
                           vertical: 30, horizontal: 10),
-                      height: MediaQuery.of(context).size.height / 2,
-                      width: MediaQuery.of(context).size.width,
+                      height: MediaQuery.of(context).size.height / 2.1,
+                      width: MediaQuery.of(context).size.width / 1.1,
                       decoration: const BoxDecoration(
                         color: Colors.white,
                       ),
@@ -136,6 +136,7 @@ class _Login_PageState extends State<Login_Page> {
                     ),
                   ),
                 ),
+                const SizedBox(height: 10),
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

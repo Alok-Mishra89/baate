@@ -1,5 +1,6 @@
+import 'package:baatein/pages/signup_page.dart';
 import 'package:flutter/material.dart';
-import 'login_page.dart';
+import 'pages/login_page.dart';
 
 void main() {
   runApp(const Baate());
