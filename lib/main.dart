@@ -1,3 +1,4 @@
+import 'package:baatein/pages/home.dart';
 import 'package:baatein/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 import 'pages/login_page.dart';
@@ -16,7 +17,7 @@ class _BaateState extends State<Baate> {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home:  Scaffold(
-        body: Login_Page(),
+        body: home(),
       ),
     );
   }
